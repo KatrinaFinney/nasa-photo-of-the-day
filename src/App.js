@@ -1,15 +1,21 @@
 import React from "react";
-import "./App.css";
+import NasaList from "./components/nasaList";
+import Jumbotron from "./components/JumboTron"
+import Example from "./components/NavBar"
 
-function App() {
-  return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+
+export default function App() {
+
+  return( 
+    <div className= "App">
+      
+      <Example />
+      
+      <Jumbotron />
+      <NasaList />
+     
+   
     </div>
-  );
+  )
 }
 
-export default App;
